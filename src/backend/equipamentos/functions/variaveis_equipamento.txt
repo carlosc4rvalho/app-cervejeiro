@@ -1,0 +1,98 @@
+***Variavel de programação
+**Programação perfil_equipamento
+- eficienciaMash
+- eficienciaBrewhouse
+- volumePanela
+- volumeDeadSpace
+- volumeAbaixoFundoFalso
+- volumePerdidoEvaporacao
+- volumeTrubQuente
+- volumeTrubFrio
+- contracaoLiquido
+- absorcaoEstimada
+- volumeFinalCervDesejado
+- diametroPanela
+- diametroAberturaPanela
+- volumeKegBarrilCarbonatacao
+
+**Programação calculadora da quantidade de água
+- temperaturaAmbiente
+- temperaturaMalte
+- temperaturaDefinidaParaMosto
+
+***Variaveis Booleanas
+**Variaveis na programação
+- esquentaAguaLavagemMash
+- usaChiller
+- eSingleVessel
+
+
+
+
+***Variaveis de banco
+**Tabela perfil_equipamento
+- eficiencia_mash
+- eficiencia_brewhouse
+- volume_panela
+- volume_dead_space
+- volume_abaixo_fundo_falso
+- volume_perdido_evaporacao
+- volume_trub_quente
+- volume_trub_frio
+- contracao_liquido
+- absorcao_estimada
+- volume_final_cerv_desejado
+- diametro_panela
+- diametro_abertura_panela
+- volume_keg_barril_carbonatacao
+
+**Tabela calculadora da quantidade de água
+- temperatura_ambiente
+- temperatura_malte
+
+***Variaveis booleanas
+**Variaveis no banco
+- esquenta_agua_lavagem_antes_mash
+- usa_chiller
+- e_singlevessel
+
+
+***FUNÇÕES PROGRAMAÇÃO
+**NOME FUNÇÕES
+- pesoMalte
+- temperaturaPrimeiraRampa
+- taxaEvaporacao
+- aguaMash
+- temperaturaAguaMash
+- aguaLavagem
+- totalAgua
+- volumeAntesFervura
+- volumeAposFervura
+- volumeAposResfriamento
+- volumeFermentador
+- volumeEnvase
+- areaFundoPanela
+- areaAbertaPanela
+- tempoMostoAtingir
+- seFerverAguaLavagemEstara
+
+***FUNÇÕES PROGRAMAÇÃO
+**DESCRIÇÃO FUNÇÕES
+- Esse valor vem da Receita
+- Valor formatado que vem da Receita
+- Taxa de evaporação= VAF/VPE-1
+    VPE = Volume Perdido na Evaporação
+    VAF = Volume Após a Fervura"
+- Água do mash = peso do malte x constante + volume abaixo do fundo falso
+- Temperatura da água do mash =  constante x (Temperatura da primeira rampa – Temperatura do malte)x [(peso do malte)/(Água do mash)] + Temperatura da Primeira Rampa
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
+- não há descrição
